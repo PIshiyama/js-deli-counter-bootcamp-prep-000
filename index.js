@@ -24,7 +24,7 @@ var line = [];
 function currentLine(katzDeliLine) {
   var i = 0;
   while (katzDeliLine.length > i) {
-    line.push(' ' + [i+1] + '. ' + katzDeliLine[i]);
+    line.push([i+1] + '. ' + katzDeliLine[i]);
     i++;
   }
   if (katzDeliLine.length === 0) {
